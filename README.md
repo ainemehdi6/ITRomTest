@@ -21,7 +21,7 @@
 IT-Room est une société qui recrute sur beaucoup de postes ! Afin de faciliter le travail du service
 RH, cette application gére les offres d'emploi : créer des offres, les voir et les
 supprimer</p>
-<p dir="auto">Nous avons utilisé :</p>
+<p dir="auto">J'ai utilisé :</p>
 <ul dir="auto">
 <li>"ORM Doctrine" pour créer la base de données;</li>
 <li>Boostrap</li>
