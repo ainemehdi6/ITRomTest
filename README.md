@@ -50,9 +50,7 @@ supprimer</p>
 <ol start="3" dir="auto">
 <li>Installer les dépendances :</li>
 </ol>
-<div dir="auto"><pre>composer install
-yarn
-yarn build</pre></div>
+<div dir="auto"><pre>composer install</pre></div>
 <ol start="4" dir="auto">
 <li>Base de donnée :
 N'oubliez pas de modifier le ".env" pour l'adapter à votre base de donnée.</li>
