@@ -1,4 +1,6 @@
 <form method="post" action="{{ path('app_job_delete', {'id': job.id}) }}" onsubmit="return confirm('Are you sure you want to delete this job offer?');">
 	<input type="hidden" name="_token" value="{{ csrf_token('delete' ~ job.id) }}">
-	<button class="btn">Delete</button>
+	<button class="btn btn-danger">Delete
+		<i class="fa-solid fa-trash"></i>
+	</button>
 </form>

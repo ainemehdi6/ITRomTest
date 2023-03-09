@@ -4,9 +4,11 @@
 {% endblock %}
 
 {% block body %}
-	<h1>Job offers</h1>
+	<center>
+		<h1>Job offers</h1>
+	</center>
 
-	<table class="table">
+	<table class="table table-bordered table-hover">
 		<tbody>
 			<tr>
 				<th>Id</th>
@@ -33,7 +35,7 @@
 		</tbody>
 	</table>
 
-	<a href="{{ path('app_job_index') }}">back to list</a>
+	<a href="{{ path('app_job_index') }}" class="btn btn-primary">back to list</a>
 
 	{{ include('job/_delete_form.html.twig') }}
 {% endblock %}
